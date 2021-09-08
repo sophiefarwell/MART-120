@@ -1,2 +1,2 @@
 # MART-120
-WEEK 1
+This is where I will store all of my assignments 
