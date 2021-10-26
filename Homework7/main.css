@@ -1,0 +1,19 @@
+.title{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: x-large;
+    font-weight: bolder;
+    color:maroon
+    
+}
+body {
+    background-image: url(https://cdn.pixabay.com/photo/2018/03/10/18/22/flower-3214833_1280.jpg)
+}
+.content{
+    font-weight:bolder;
+    color:darkred;
+    background-color: beige;
+}
+#specficlink{
+    color: red;
+    font-weight: bolder;
+}

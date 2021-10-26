@@ -1,0 +1,58 @@
+<html> 
+
+<head>
+<title>My Thrid Page</title>
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="main.css">
+<script>
+    function checkboxes() 
+    {
+         var firstName = document.getElementById("fName").value;
+         if(firstName == "")
+         {
+             document.getElementById("fName").style.backgroundColor = "red";
+             document.getElementById("fName").focus();
+            
+         }
+
+         var lastName = document.getElementById("lName").value;
+         if(lastName == "")
+         {
+             document.getElementById("lName").style.backgroundColor = "red";
+             document.getElementById("lName").focus();
+         }
+         var emailName = document.getElementById("eName").value;
+         if(emailName == "")
+         {
+             document.getElementById("eName").style.backgroundColor = "red";
+             document.getElementById("eName").focus();
+         }
+         var termsName = document.getElementById("tName").value;
+         if(emailName == "")
+         {
+             document.getElementById("tName").style.backgroundColor = "red";
+             document.getElementById("tName").focus();
+         }
+        
+        
+    }
+        
+</script>
+</head>
+<body style="background-color: wheat;"> 
+    <h1>Contact Us!</h1>
+     <form action="">
+         <p>First Name: <input type="text" id= "fName"></p>
+         <p>Last Name: <input type="text" id="lName"></p>
+         <p>Email Address: <input type="text" id="eName"></p>
+         <p> Do agree to the Terms and Conditions of the Program? (fill in yes or no): <input type="text" id="tName"></p>
+         <button id="MySubmit" class="button" onclick="checkboxes();">Submit</button>
+         <br />
+         <a href="Secondpage.html" id="specficlink">Go to Second Page</a>
+         <a href="homepage2.html"> Go to Home Page</a>
+        </form>
+</body>
+     
+</html>
